@@ -18,10 +18,10 @@ namespace workGrandMouther
             quantityPeople = Convert.ToInt32( Console.ReadLine());
 
             int totalMinutes = quantityPeople * fixedWaitingTime;
-            int hoursBeforeVisit = totalMinutes / minutesInHour;
-            int minutesBeforeVisit = totalMinutes % minutesInHour; 
+            int hoursBeforeAdmission = totalMinutes / minutesInHour;
+            int minutesBeforeAdmission = totalMinutes % minutesInHour; 
 
-            Console.WriteLine($"Вы отстоите в очереди {hoursBeforeVisit} часа и {minutesBeforeVisit} минут");
+            Console.WriteLine($"Вы отстоите в очереди {hoursBeforeAdmission} часа и {minutesBeforeAdmission} минут");
         }
     }
 }
